@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G18a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Garden_Controller" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,7 +20,51 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l39-YT-ePy">
+                                <rect key="frame" x="148" y="319" width="79" height="30"/>
+                                <state key="normal" title="Toggle LED"/>
+                                <connections>
+                                    <action selector="toggleLed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q4U-vw-p3K"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="o2C-sy-vmX">
+                                <rect key="frame" x="119" y="167" width="136" height="20.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Garden Controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fb7-da-X0Y">
+                                        <rect key="frame" x="0.0" y="0.0" width="136" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZXr-Nx-vAl">
+                                <rect key="frame" x="166" y="369" width="42" height="30"/>
+                                <state key="normal" title="Green"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bzt-af-tCZ">
+                                <rect key="frame" x="116" y="369" width="30" height="30"/>
+                                <state key="normal" title="Red"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sOa-dD-JDb">
+                                <rect key="frame" x="228" y="369" width="31" height="30"/>
+                                <state key="normal" title="Blue"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZXr-Nx-vAl" firstAttribute="leading" secondItem="Bzt-af-tCZ" secondAttribute="trailing" constant="20" id="005-Wq-EYB"/>
+                            <constraint firstItem="Bzt-af-tCZ" firstAttribute="centerY" secondItem="ZXr-Nx-vAl" secondAttribute="centerY" id="DPg-7g-Fdn"/>
+                            <constraint firstItem="o2C-sy-vmX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Et3-62-qFQ"/>
+                            <constraint firstItem="l39-YT-ePy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LlL-NG-fp4"/>
+                            <constraint firstItem="ZXr-Nx-vAl" firstAttribute="top" secondItem="l39-YT-ePy" secondAttribute="bottom" constant="20" id="LyN-cY-WHL"/>
+                            <constraint firstItem="sOa-dD-JDb" firstAttribute="centerY" secondItem="ZXr-Nx-vAl" secondAttribute="centerY" id="W4X-BP-ITJ"/>
+                            <constraint firstItem="l39-YT-ePy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bIn-Yi-EyQ"/>
+                            <constraint firstItem="sOa-dD-JDb" firstAttribute="leading" secondItem="ZXr-Nx-vAl" secondAttribute="trailing" constant="20" id="q07-I8-wte"/>
+                            <constraint firstItem="ZXr-Nx-vAl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="w0K-ua-VdJ"/>
+                            <constraint firstItem="o2C-sy-vmX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="147" id="ybf-FM-7uu"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

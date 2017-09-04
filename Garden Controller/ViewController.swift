@@ -20,6 +20,18 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func toggleLed(_ sender: Any) {
+        print("Toggleing led state")
+        
+        let clientID = "CocoaMQTT-" + String(ProcessInfo().processIdentifier)
+        let mqtt = CocoaMQTT(clientID: clientID, host: "localhost", port: 1883)
+        mqtt.username = "test"
+        mqtt.password = "public"
+        mqtt.willMessage = CocoaMQTTWill(topic: "/will", message: "dieout")
+        mqtt.keepAlive = 60
+        mqtt.delegate = self
+        mqtt.connect()
+    }
 
 }
 

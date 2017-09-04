@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23EA7B0B5F14EA889A07708F /* Pods_Garden_Controller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C33E002817715117FB29E5 /* Pods_Garden_Controller.framework */; };
+		91951CE17F64B0FF739EF77D /* Pods_Garden_ControllerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D4DE72F76B0063CD6A98F1 /* Pods_Garden_ControllerUITests.framework */; };
+		B94F546C7D64AC06FD95EBF7 /* Pods_Garden_ControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96DD398DF0F0ED7B1EF0536 /* Pods_Garden_ControllerTests.framework */; };
 		DB4B6E101F5C4DB5001A2FAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4B6E0F1F5C4DB5001A2FAA /* AppDelegate.swift */; };
 		DB4B6E121F5C4DB5001A2FAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4B6E111F5C4DB5001A2FAA /* ViewController.swift */; };
 		DB4B6E151F5C4DB5001A2FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4B6E131F5C4DB5001A2FAA /* Main.storyboard */; };
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07C42BE125BD9C3C073037DD /* Pods-Garden Controller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Garden Controller.release.xcconfig"; path = "Pods/Target Support Files/Pods-Garden Controller/Pods-Garden Controller.release.xcconfig"; sourceTree = "<group>"; };
+		0A520E6EFC19F8A285FC0B7C /* Pods-Garden ControllerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Garden ControllerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Garden ControllerUITests/Pods-Garden ControllerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		18C33E002817715117FB29E5 /* Pods_Garden_Controller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Garden_Controller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		695C3BFD28CD9147B630254C /* Pods-Garden Controller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Garden Controller.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Garden Controller/Pods-Garden Controller.debug.xcconfig"; sourceTree = "<group>"; };
+		B0499351CC54794500CF6928 /* Pods-Garden ControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Garden ControllerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Garden ControllerTests/Pods-Garden ControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3D4DE72F76B0063CD6A98F1 /* Pods_Garden_ControllerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Garden_ControllerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96DD398DF0F0ED7B1EF0536 /* Pods_Garden_ControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Garden_ControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4B6E0C1F5C4DB5001A2FAA /* Garden Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Garden Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4B6E0F1F5C4DB5001A2FAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB4B6E111F5C4DB5001A2FAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		DB4B6E2B1F5C4DB5001A2FAA /* Garden ControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Garden ControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4B6E2F1F5C4DB5001A2FAA /* Garden_ControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garden_ControllerUITests.swift; sourceTree = "<group>"; };
 		DB4B6E311F5C4DB5001A2FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5546CAFF94851BDFD0678C9 /* Pods-Garden ControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Garden ControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Garden ControllerTests/Pods-Garden ControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		F2B4887B3538A65E1EF31B95 /* Pods-Garden ControllerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Garden ControllerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Garden ControllerUITests/Pods-Garden ControllerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23EA7B0B5F14EA889A07708F /* Pods_Garden_Controller.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B94F546C7D64AC06FD95EBF7 /* Pods_Garden_ControllerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91951CE17F64B0FF739EF77D /* Pods_Garden_ControllerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08DB82D2733BA21FBC777CFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				695C3BFD28CD9147B630254C /* Pods-Garden Controller.debug.xcconfig */,
+				07C42BE125BD9C3C073037DD /* Pods-Garden Controller.release.xcconfig */,
+				B0499351CC54794500CF6928 /* Pods-Garden ControllerTests.debug.xcconfig */,
+				E5546CAFF94851BDFD0678C9 /* Pods-Garden ControllerTests.release.xcconfig */,
+				F2B4887B3538A65E1EF31B95 /* Pods-Garden ControllerUITests.debug.xcconfig */,
+				0A520E6EFC19F8A285FC0B7C /* Pods-Garden ControllerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		744002D5BC2D0F43CAD3ED51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18C33E002817715117FB29E5 /* Pods_Garden_Controller.framework */,
+				D96DD398DF0F0ED7B1EF0536 /* Pods_Garden_ControllerTests.framework */,
+				C3D4DE72F76B0063CD6A98F1 /* Pods_Garden_ControllerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DB4B6E031F5C4DB4001A2FAA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				DB4B6E231F5C4DB5001A2FAA /* Garden ControllerTests */,
 				DB4B6E2E1F5C4DB5001A2FAA /* Garden ControllerUITests */,
 				DB4B6E0D1F5C4DB5001A2FAA /* Products */,
+				08DB82D2733BA21FBC777CFD /* Pods */,
+				744002D5BC2D0F43CAD3ED51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB4B6E341F5C4DB5001A2FAA /* Build configuration list for PBXNativeTarget "Garden Controller" */;
 			buildPhases = (
+				16D634F452797095251DE8B2 /* [CP] Check Pods Manifest.lock */,
 				DB4B6E081F5C4DB5001A2FAA /* Sources */,
 				DB4B6E091F5C4DB5001A2FAA /* Frameworks */,
 				DB4B6E0A1F5C4DB5001A2FAA /* Resources */,
+				9492E09C45C26450D9CEBF9C /* [CP] Embed Pods Frameworks */,
+				942CBA16CB29AEFAA3D86C60 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB4B6E371F5C4DB5001A2FAA /* Build configuration list for PBXNativeTarget "Garden ControllerTests" */;
 			buildPhases = (
+				E2E411B2181B183348F29DC5 /* [CP] Check Pods Manifest.lock */,
 				DB4B6E1C1F5C4DB5001A2FAA /* Sources */,
 				DB4B6E1D1F5C4DB5001A2FAA /* Frameworks */,
 				DB4B6E1E1F5C4DB5001A2FAA /* Resources */,
+				D3196295B5F928499B66A13A /* [CP] Embed Pods Frameworks */,
+				59A09CACAE338634839EE4AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB4B6E3A1F5C4DB5001A2FAA /* Build configuration list for PBXNativeTarget "Garden ControllerUITests" */;
 			buildPhases = (
+				99C63F33175DB1964970CD02 /* [CP] Check Pods Manifest.lock */,
 				DB4B6E271F5C4DB5001A2FAA /* Sources */,
 				DB4B6E281F5C4DB5001A2FAA /* Frameworks */,
 				DB4B6E291F5C4DB5001A2FAA /* Resources */,
+				4E9BB0F92084B7B8A7972A1D /* [CP] Embed Pods Frameworks */,
+				35B61EFAF3469FDC50334B93 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16D634F452797095251DE8B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		35B61EFAF3469FDC50334B93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Garden ControllerUITests/Pods-Garden ControllerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E9BB0F92084B7B8A7972A1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Garden ControllerUITests/Pods-Garden ControllerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59A09CACAE338634839EE4AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Garden ControllerTests/Pods-Garden ControllerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		942CBA16CB29AEFAA3D86C60 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Garden Controller/Pods-Garden Controller-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9492E09C45C26450D9CEBF9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Garden Controller/Pods-Garden Controller-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99C63F33175DB1964970CD02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3196295B5F928499B66A13A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Garden ControllerTests/Pods-Garden ControllerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2E411B2181B183348F29DC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DB4B6E081F5C4DB5001A2FAA /* Sources */ = {
@@ -415,7 +602,9 @@
 		};
 		DB4B6E351F5C4DB5001A2FAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 695C3BFD28CD9147B630254C /* Pods-Garden Controller.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4YBGQSFC2V;
 				INFOPLIST_FILE = "Garden Controller/Info.plist";
@@ -428,7 +617,9 @@
 		};
 		DB4B6E361F5C4DB5001A2FAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07C42BE125BD9C3C073037DD /* Pods-Garden Controller.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4YBGQSFC2V;
 				INFOPLIST_FILE = "Garden Controller/Info.plist";
@@ -441,6 +632,7 @@
 		};
 		DB4B6E381F5C4DB5001A2FAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0499351CC54794500CF6928 /* Pods-Garden ControllerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +648,7 @@
 		};
 		DB4B6E391F5C4DB5001A2FAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5546CAFF94851BDFD0678C9 /* Pods-Garden ControllerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +664,7 @@
 		};
 		DB4B6E3B1F5C4DB5001A2FAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B4887B3538A65E1EF31B95 /* Pods-Garden ControllerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4YBGQSFC2V;
@@ -485,6 +679,7 @@
 		};
 		DB4B6E3C1F5C4DB5001A2FAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A520E6EFC19F8A285FC0B7C /* Pods-Garden ControllerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4YBGQSFC2V;
@@ -516,6 +711,7 @@
 				DB4B6E361F5C4DB5001A2FAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB4B6E371F5C4DB5001A2FAA /* Build configuration list for PBXNativeTarget "Garden ControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +720,7 @@
 				DB4B6E391F5C4DB5001A2FAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB4B6E3A1F5C4DB5001A2FAA /* Build configuration list for PBXNativeTarget "Garden ControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +729,7 @@
 				DB4B6E3C1F5C4DB5001A2FAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

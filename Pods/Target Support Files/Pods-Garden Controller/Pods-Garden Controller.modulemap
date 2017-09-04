@@ -1,0 +1,6 @@
+framework module Pods_Garden_Controller {
+  umbrella header "Pods-Garden Controller-umbrella.h"
+
+  export *
+  module * { export * }
+}

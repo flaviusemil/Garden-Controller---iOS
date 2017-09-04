@@ -1,0 +1,6 @@
+framework module Pods_Garden_ControllerUITests {
+  umbrella header "Pods-Garden ControllerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
